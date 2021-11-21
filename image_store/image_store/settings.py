@@ -27,7 +27,12 @@ INSTALLED_APPS = [
     'users',
     'rest_framework',
     'imagekit',
+    'django_cleanup.apps.CleanupConfig',
 ]
+
+REST_FRAMEWORK = {
+    'DATETIME_FORMAT': "%d/%m/%Y %H:%M:%S",
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -96,8 +101,6 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
-
-DATETIME_FORMAT = "%Y-%m-%d%H:%M:%S"
 
 USE_I18N = True
 

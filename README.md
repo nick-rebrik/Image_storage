@@ -8,7 +8,7 @@ This is an api site for storing images. You can upload your image to the site an
 - Base level - height 200 px
 - Premium - height 200 px, 400 px
 - Enterprise - height 200 px, 400 px, and a link to the original image
-The admin can create links to images of different sizes, as well as change user subscription levels
+- The admin can create links to images of different sizes, as well as change user subscription levels
 
 ### Technologies
 

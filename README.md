@@ -1,4 +1,4 @@
-# Image Store
+# Image Storage
 ***Storage for uploading images.***
 
 ### Description
